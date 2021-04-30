@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping pattern=".env.dev" type="PLAIN_TEXT" />
+      <mapping pattern=".env.prod" type="PLAIN_TEXT" />
+      <mapping ext="store" type="PLAIN_TEXT" />
+      <mapping ext="jks" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

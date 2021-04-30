@@ -1,0 +1,29 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript">
+        <added pattern="filter(predicate,thisArg)" />
+      </blacklist>
+      <blacklist language="Angular HTML Template">
+        <added pattern="Number.toFixed(fractionDigits)" />
+        <added pattern="CurrencyPipe.transform(value,currencyCode,skipEmpty)" />
+        <added pattern="PyraFormatLocalizedNumberPipe.transform(num,mantissa)" />
+        <added pattern="TranslatePipe.transform(translationKey,translationContext,language)" />
+        <added pattern="AlertFiltersStepComponent.getClassForRadio(parameter)" />
+        <added pattern="FilterPanelComponent.onOpen(name)" />
+        <added pattern="FilterPanelComponent.onMultiFilterValueChange(filterName,values)" />
+        <added pattern="FilterPanelComponent.onStringFilterChange(filterName,value)" />
+        <added pattern="TenantsByUnitTypeFilterComponent.setValueForFilter(filter,value)" />
+        <added pattern="TenantsByUnitTypeFilterComponent.getValueForFilter(filter)" />
+        <added pattern="PyraDateRangeComponent.apply(dateRange)" />
+        <added pattern="LayoutComponent.navigateForward(route)" />
+      </blacklist>
+      <blacklist language="JavaScript">
+        <added pattern="makeSvgDataUri(node,width,height)" />
+      </blacklist>
+    </blacklists>
+    <disabledLanguages>
+      <language id="TypeScript" />
+    </disabledLanguages>
+  </component>
+</application>
